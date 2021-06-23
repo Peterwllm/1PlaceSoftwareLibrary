@@ -1,0 +1,9 @@
+# can be "server" or "cmd"
+mode = "server"
+engine = "chrome"
+
+[server]
+port = 2000
+host = "0.0.0.0"
+allow-scripts-executing = true
+log = "/var/log/anychart.log"
